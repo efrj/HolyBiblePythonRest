@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  python:
+    build: ./
+    image: python-bottle
+    volumes:
+      - .:/app
+    container_name: python.holybible
+    ports:
+      - "8080:8080"
