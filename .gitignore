@@ -1,0 +1,6 @@
+/.bundle
+venv/
+pycache/
+*.pyc
+pip-log.txt
+*.env
